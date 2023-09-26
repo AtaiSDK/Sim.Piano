@@ -1,18 +1,21 @@
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <Button
+    <View
         android:id="@+id/note_1"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
         android:background="@drawable/obvodka"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:elevation="0dp"
+        />
 
-    <Button
+    <View
         android:id="@+id/note_2"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -20,7 +23,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_1" />
 
-    <Button
+    <View
         android:id="@+id/note_3"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -28,7 +31,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_2" />
 
-    <Button
+    <View
         android:id="@+id/note_4"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -36,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_3" />
 
-    <Button
+    <View
         android:id="@+id/note_5"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -44,7 +47,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_4" />
 
-    <Button
+    <View
         android:id="@+id/note_6"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -52,7 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_5" />
 
-    <Button
+    <View
         android:id="@+id/note_7"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -60,7 +63,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_6" />
 
-    <Button
+    <View
         android:id="@+id/note_8"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -68,7 +71,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_7" />
 
-    <Button
+    <View
         android:id="@+id/note_9"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -76,7 +79,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_8" />
 
-    <Button
+    <View
         android:id="@+id/note_10"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -84,7 +87,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_9" />
 
-    <Button
+    <View
         android:id="@+id/note_11"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -92,7 +95,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_10" />
 
-    <Button
+    <View
         android:id="@+id/note_12"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -100,7 +103,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_11" />
 
-    <Button
+    <View
         android:id="@+id/note_13"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -108,7 +111,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_12" />
 
-    <Button
+    <View
         android:id="@+id/note_14"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -116,7 +119,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_13" />
 
-    <Button
+    <View
         android:id="@+id/note_15"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -124,7 +127,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_14" />
 
-    <Button
+    <View
         android:id="@+id/note_16"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -132,7 +135,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_15" />
 
-    <Button
+    <View
         android:id="@+id/note_17"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -140,7 +143,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_16" />
 
-    <Button
+    <View
         android:id="@+id/note_18"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -148,7 +151,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_17" />
 
-    <Button
+    <View
         android:id="@+id/note_19"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -156,7 +159,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_18" />
 
-    <Button
+    <View
         android:id="@+id/note_20"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -164,7 +167,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_19" />
 
-    <Button
+    <View
         android:id="@+id/note_21"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -172,7 +175,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_20" />
 
-    <Button
+    <View
         android:id="@+id/note_22"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -180,7 +183,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_21" />
 
-    <Button
+    <View
         android:id="@+id/note_23"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -188,7 +191,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_22" />
 
-    <Button
+    <View
         android:id="@+id/note_24"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -196,7 +199,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_23" />
 
-    <Button
+    <View
         android:id="@+id/note_25"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -204,7 +207,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_24" />
 
-    <Button
+    <View
         android:id="@+id/note_26"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -212,7 +215,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_25" />
 
-    <Button
+    <View
         android:id="@+id/note_27"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -220,7 +223,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_26" />
 
-    <Button
+    <View
         android:id="@+id/note_28"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -228,7 +231,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_27" />
 
-    <Button
+    <View
         android:id="@+id/note_29"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -236,7 +239,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_28" />
 
-    <Button
+    <View
         android:id="@+id/note_30"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -244,15 +247,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_29" />
 
-    <Button
+    <View
         android:id="@+id/note_31"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
         android:background="@drawable/obvodka"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/note_1" />
+        app:layout_constraintStart_toEndOf="@id/note_1"
+        android:elevation="0dp"/>
 
-    <Button
+    <View
         android:id="@+id/note_32"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -260,7 +264,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_31" />
 
-    <Button
+    <View
         android:id="@+id/note_33"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -268,7 +272,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_32" />
 
-    <Button
+    <View
         android:id="@+id/note_34"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -276,7 +280,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_33" />
 
-    <Button
+    <View
         android:id="@+id/note_35"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -284,7 +288,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_34" />
 
-    <Button
+    <View
         android:id="@+id/note_36"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -292,7 +296,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_35" />
 
-    <Button
+    <View
         android:id="@+id/note_37"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -300,7 +304,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_36" />
 
-    <Button
+    <View
         android:id="@+id/note_38"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -308,7 +312,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_37" />
 
-    <Button
+    <View
         android:id="@+id/note_39"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -316,7 +320,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_38" />
 
-    <Button
+    <View
         android:id="@+id/note_40"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -324,7 +328,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_39" />
 
-    <Button
+    <View
         android:id="@+id/note_41"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -332,7 +336,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_40" />
 
-    <Button
+    <View
         android:id="@+id/note_42"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -340,7 +344,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_41" />
 
-    <Button
+    <View
         android:id="@+id/note_43"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -348,7 +352,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_42" />
 
-    <Button
+    <View
         android:id="@+id/note_44"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -356,7 +360,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_43" />
 
-    <Button
+    <View
         android:id="@+id/note_45"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -364,7 +368,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_44" />
 
-    <Button
+    <View
         android:id="@+id/note_46"
         android:layout_width="@dimen/а"
         android:layout_height="120dp"
@@ -372,152 +376,171 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/note_45" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         android:layout_marginStart="12dp"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:elevation="10dp"/>
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         android:layout_marginStart="54dp"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         android:layout_marginStart="78dp"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         android:layout_marginStart="132dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         android:layout_marginStart="156dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
+        android:background="@color/black"
         android:layout_height="65dp"
         android:layout_marginStart="180dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         android:layout_marginStart="228dp"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         android:layout_marginStart="252dp"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         android:layout_marginStart="298dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         android:layout_marginStart="322dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         android:layout_marginStart="346dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         android:layout_marginStart="396dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
         android:layout_marginStart="422dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         android:layout_marginStart="464dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
         android:layout_marginStart="490dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
         android:layout_marginStart="514dp"
+        android:background="@color/black"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
+        android:background="@color/black"
         android:layout_marginStart="564dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
+        android:background="@color/black"
         android:layout_height="65dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -525,33 +548,35 @@
         android:layout_marginStart="588dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
         android:layout_marginStart="632dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
         android:layout_marginStart="656dp"
         />
 
-    <Button
-        android:layout_width="@dimen/а"
+    <View
+        android:layout_width="20dp"
         android:layout_height="65dp"
+        android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="60dp"
         android:layout_marginStart="680dp"
         />
-
     <ImageView
         android:id="@+id/stop"
         android:layout_width="55dp"
